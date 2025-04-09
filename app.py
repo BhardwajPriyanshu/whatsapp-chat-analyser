@@ -2,17 +2,6 @@ import streamlit as st
 import preprocessor,helper
 import matplotlib.pyplot as plt
 import seaborn as sns
-import matplotlib.pyplot as plt
-from matplotlib import rcParams, font_manager as fm
-
-# Load the Segoe UI Emoji font from Windows Fonts
-emoji_font = fm.FontProperties(fname=r"C:\Windows\Fonts\seguiemj.ttf")
-
-# Set it as the default font for the session
-rcParams['font.family'] = emoji_font.get_name()
-
-
-
 
 
 
